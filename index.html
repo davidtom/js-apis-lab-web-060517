@@ -4,6 +4,23 @@
 </head>
 <body>
 
+  <h3>Create New Gist</h3>
+  <form class="gist-submit" action="#" method="post">
+    <label>Personal Token:</label>
+    <input type="text" class = "gist-input-token" name="personal_token" value="4c9e819ad719c2f1a142bc5f7512dd693a33c167"><br>
+    <label>File Name:</label>
+    <input type="text" class = "gist-input-field" name="file_name"><br>
+    <label>Description:</label><br>
+    <textarea class = "gist-input-field" name="gist_description" rows="8" cols="80"></textarea><br>
+    <label>Content:</label><br>
+    <textarea class = "gist-input-field" name="gist_content" rows="8" cols="80"></textarea><br>
+    <input id="submit-button" type="submit" name="submit">
+  </form>
+  <h3>Gist Details</h3>
+  <div class="gist-details">
+
+  </div>
+
   <script src="js/jquery-2.1.1.min.js"></script>
   <script src="js/github_client.js"></script>
 </body>
